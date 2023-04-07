@@ -1,0 +1,14 @@
+.projectRowsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.projectRow {
+  display: flex;
+  gap: 10px;
+}
+
+.projectRow > div > button {
+  width: 100%;
+}

@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-col-1 {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.flex-col-2 {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.flex-col-4 {
+  flex-grow: 4;
+  flex-basis: 0;
+}
+
+.flex-col-8 {
+  flex-grow: 8;
+  flex-basis: 0;
+}
+
+.flex-col-12 {
+  flex-grow: 12;
+  flex-basis: 0;
+}
+
+.flex-col-1,
+.flex-col-2,
+.flex-col-4,
+.flex-col-8,
+.flex-col-12 {
+  overflow-wrap: break-word;
+  min-width: 0;
+}
